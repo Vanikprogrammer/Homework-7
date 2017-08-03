@@ -45,7 +45,6 @@ public class Main {
         System.out.println(pleer6.getPrise());
         pleer6.playSong();
         pleer6.playAllSongs();
-        System.out.println();
         pleer6.shuffle();
     }
 }
