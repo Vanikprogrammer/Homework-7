@@ -10,12 +10,14 @@ public class Pleer6 extends Pleer3 {
         super(prise);
     }
     public void shuffle() {
-        for (int i = 1; i < playlist.length; i++) {
-            int j = r.nextInt(i);
-            String temp = playlist[i];
-            playlist[i] = playlist[j];
-            playlist[j] = temp;
-            System.out.println(i + "." + "song - " + playlist[i]);  // проигрываем песни в случайном порядке
+        for (int i = playlist.length-1; i > 0; i--) {
+            int j = r.nextInt(i+1);
+            String temp = playlist[j];
+            playlist[j] = playlist[i];
+            playlist[i] = temp;                  // проигрываем песни в случайном порядке
+        }
+        for(String str:playlist){
+            System.out.println(str);
         }
     }
 }

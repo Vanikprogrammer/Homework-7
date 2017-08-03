@@ -7,6 +7,6 @@ public class Pleer4 extends Pleer3 {
     }
     @Override
     public void playSong() {
-        System.out.println(playlist[playlist.length - 1]);   // проигрываем последнюю песню
+        System.out.println("Последняя песня - " + playlist[playlist.length - 1]);   // проигрываем последнюю песню
     }
 }

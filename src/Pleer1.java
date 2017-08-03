@@ -7,6 +7,7 @@ public class Pleer1 extends PleerParapeters {
     public Pleer1(String prise) {
         super(prise);
     }
+
     public void playSong() {
         System.out.println("Playng: " + song1);    // проигрываем одну песню
     }
