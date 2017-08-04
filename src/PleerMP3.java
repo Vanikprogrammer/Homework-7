@@ -1,3 +1,5 @@
+import javafx.scene.layout.Pane;
+
 /**
  * Created by 1 on 02.08.2017.
  */
@@ -9,7 +11,9 @@ public class PleerParapeters {
     public PleerParapeters(String prise){
         this.PRISE = prise;
     }
+
     public String getPrise() {
         return PRISE;
     }
+
 }
