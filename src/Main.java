@@ -1,3 +1,5 @@
+import allpleers.*;
+
 /**
  * Created by 1 on 02.08.2017.
  */
@@ -13,13 +15,13 @@ public class Main {
 
         System.out.println("Pleer 1");
         System.out.println(pleer1.getPrise());
-        System.out.println(pleer1.song1);
+        System.out.println(pleer1.song);
         pleer1.playSong();
         System.out.println();
 
         System.out.println("Pleer 2");
         System.out.println(pleer2.getPrise());
-        System.out.println(pleer2.song1);
+        System.out.println(pleer2.song);
         pleer2.playSong();
         System.out.println();
 
